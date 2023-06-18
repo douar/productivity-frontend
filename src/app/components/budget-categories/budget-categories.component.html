@@ -1,1 +1,8 @@
-<p>budget-categories works!</p>
+<div class="input-group" *ngFor="let category of budgetCategoryList">
+  <div class="input-group-prepend">
+    <div class="input-group-text">
+      <input type="checkbox">
+    </div>
+  </div>
+  <input type="text" [(ngModel)]="category.categoryName">
+</div>
