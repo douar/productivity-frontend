@@ -1,6 +1,7 @@
 import { Component, OnInit, OnDestroy} from '@angular/core';
 import {BudgetService} from "../../services/budget.service";
 import {IBudgetCategory} from "../../_interfaces/IBudgetCategory";
+import {Subscription} from "rxjs";
 
 @Component({
   selector: 'app-budget-categories',
