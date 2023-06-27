@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'productivity-frontend';
+
+  isLoggedIn:boolean = false
+  createAccount:boolean = false
+  constructor() {
+  }
 }
