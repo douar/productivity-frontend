@@ -12,6 +12,10 @@ input{
   margin: 0;
 }
 
+#item-category-input{
+  width: fit-content;
+}
+
 mat-card-title{
   background-color: lightblue;
   padding: 1rem;
@@ -30,8 +34,4 @@ table{
   margin-bottom: 1rem;
   width: 100%;
   text-align: center;
-}
-
-tr{
-
 }
