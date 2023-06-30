@@ -1,15 +1,1 @@
-<div class="container" *ngIf="!isLoggedIn">
-  <div *ngIf="!createAccount">
-    <app-login></app-login>
-  </div>
-  <div *ngIf="createAccount">
-    <app-create-account></app-create-account>
-  </div>
-
-</div>
-
-<div class="container" *ngIf="isLoggedIn">
-  <app-main-dashboard></app-main-dashboard>
-</div>
-
-
+<app-main-dashboard></app-main-dashboard>

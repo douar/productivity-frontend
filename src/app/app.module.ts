@@ -15,8 +15,8 @@ import { BudgetMonthlyComponent } from './components/budget-components/budget-mo
 import { MainDashboardComponent } from './components/main-components/main-dashboard/main-dashboard.component';
 import { MainNavComponent } from './components/main-components/main-nav/main-nav.component';
 import { AccountComponent } from './components/account/account.component';
-import { NewProductivityComponent } from './components/new-productivity/new-productivity.component';
-import { NewBudgetComponent } from './components/new-budget/new-budget.component';
+import { NewProductivityComponent } from './components/new-productivity-pages/new-productivity/new-productivity.component';
+import { NewBudgetComponent } from './components/new-productivity-pages/new-budget/new-budget.component';
 import { MainPageComponent } from './components/main-components/main-page/main-page.component';
 
 @NgModule({
@@ -40,7 +40,7 @@ import { MainPageComponent } from './components/main-components/main-page/main-p
     MaterialModule,
     BrowserAnimationsModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

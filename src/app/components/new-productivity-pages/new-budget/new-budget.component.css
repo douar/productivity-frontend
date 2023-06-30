@@ -1,0 +1,37 @@
+.h1{
+  border-bottom: solid black thin;
+  text-align: center;
+  padding: 1rem;
+}
+
+.input-group{
+  margin: 1rem;
+}
+
+input{
+  margin: 0;
+}
+
+mat-card-title{
+  background-color: lightblue;
+  padding: 1rem;
+  text-align: center;
+}
+
+mat-card-footer{
+  background-color: lightblue;
+  display: flex;
+  justify-content: end;
+}
+
+table{
+  border: solid black thin;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+tr{
+
+}

@@ -1,0 +1,60 @@
+<div class="container">
+  <div class="row">
+    <h1 class="h1">Let's Start a New Budget</h1>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <mat-card>
+        <mat-card-title>Add Income</mat-card-title>
+        <mat-card-content>
+          <div class="row">
+            <div class="input-group">
+              <input type="text" placeholder="Income Item">
+              <input type="text" placeholder="Category">
+              <input type="text" placeholder="Amount">
+              <button mat-raised-button color="primary">Add</button>
+            </div>
+          </div>
+          <ul>
+            <li>Full Time</li>
+          </ul>
+        </mat-card-content>
+      </mat-card>
+    </div>
+    <div class="col">
+      <mat-card class="card">
+        <mat-card-title class="card-title">Income</mat-card-title>
+        <mat-card-content>
+          <div class="row">
+            <div class="income-list-container">
+              <table>
+                <tr>
+                  <th>Item</th>
+                  <th>Category</th>
+                  <th>Amount</th>
+                  <th></th>
+                </tr>
+                <tr *ngFor="let income of incomeList">
+                  <td>{{income["Income Item"]}}</td>
+                  <td>{{income["Income Category"]}}</td>
+                  <td>${{income.Amount}}</td>
+                  <td><button class="btn btn-sm btn-outline-warning">Remove</button></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+
+        </mat-card-content>
+        <mat-card-footer>
+          <mat-card-actions>
+            <button mat-raised-button color="primary" >Save</button>
+          </mat-card-actions>
+        </mat-card-footer>
+      </mat-card>
+    </div>
+  </div>
+</div>

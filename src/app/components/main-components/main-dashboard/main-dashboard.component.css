@@ -1,0 +1,8 @@
+.main-nav-container{
+  padding: 1.5rem;
+  background-color: lightblue;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
