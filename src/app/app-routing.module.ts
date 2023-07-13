@@ -9,6 +9,7 @@ import {NewBudgetComponent} from "./components/new-productivity-pages/new-budget
 import {MainPageComponent} from "./components/main-components/main-page/main-page.component";
 
 const routes: Routes = [
+  {path: '', component:MainPageComponent},
   {path: 'manage-account', component: AccountComponent},
   {path: 'home', component: MainPageComponent},
   {path: 'new-budget', component: NewBudgetComponent},

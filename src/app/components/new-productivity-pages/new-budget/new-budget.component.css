@@ -1,37 +1,121 @@
-.h1{
-  border-bottom: solid black thin;
-  text-align: center;
-  padding: 1rem;
-}
-
-.input-group{
-  margin: 1rem;
-}
-
-input{
-  margin: 0;
-}
-
-#item-category-input{
-  width: fit-content;
-}
-
-mat-card-title{
-  background-color: lightblue;
-  padding: 1rem;
-  text-align: center;
-}
-
-mat-card-footer{
-  background-color: lightblue;
+.header-container{
   display: flex;
-  justify-content: end;
+  justify-content: center;
+  margin: 2rem;
+}
+.container{
+  width: 100rem;
+  height: 35rem;
+  border: black solid thin;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+h3{
+  text-align: center;
+  color: #777;
+}
+
+.container form{
+  width: 77rem;
+  position: absolute;
+  top: 100px;
+  left: 40px;
+  transition: 0.5s;
+}
+
+form input{
+  width: 100%;
+  padding: 10px 5px;
+  margin: 5px 0;
+  border: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+
+.btn-box{
+  position: absolute;
+  top: 23rem;
+  width: 100%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+form button{
+  width: 110px;
+  height: 35px;
+  margin: 0 10px;
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  border-radius: 30px;
+  border: 0;
+  outline: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+#form-2{
+  left: 100rem;
+}
+
+#form-3{
+  left: 100rem;
+}
+
+row{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: solid black thin;
+}
+
+.column-1{
+  width: 25%;
+
+}
+
+.column-2{
+  width: 75%;
+  text-align: center;
 }
 
 table{
-  border: solid black thin;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
   width: 100%;
-  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.main-th{
+  border: thin black solid;
+}
+
+#column-1{
+  width: 15rem;
+}
+
+#column-2{
+  width: 15rem;
+}
+
+#column-3{
+  width: 15rem;
+}
+
+td{
+  border: thin black solid;
+  margin: 0;
+}
+
+.sub-table{
+  margin: 0;
+  padding: 0;
+}
+
+.sub-tr{
+  padding: 0;
+  border-bottom: thin black solid;
+}
+
+.sub-tr:last-child{
+  border-bottom: none;
 }

@@ -18,6 +18,7 @@ import { AccountComponent } from './components/account/account.component';
 import { NewProductivityComponent } from './components/new-productivity-pages/new-productivity/new-productivity.component';
 import { NewBudgetComponent } from './components/new-productivity-pages/new-budget/new-budget.component';
 import { MainPageComponent } from './components/main-components/main-page/main-page.component';
+import { BudgetItemComponent } from './components/budget-components/budget-item/budget-item.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { MainPageComponent } from './components/main-components/main-page/main-p
     NewProductivityComponent,
     NewBudgetComponent,
     MainPageComponent,
+    BudgetItemComponent,
   ],
   imports: [
     BrowserModule,
